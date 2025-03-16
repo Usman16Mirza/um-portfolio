@@ -1,210 +1,252 @@
 [
-	{
-		"id": 1,
-		"title": "Deloitte",
-		"title2": "Project Description",
-		"img": "/img/portfolio/2.jpg",
-		"imgLarge": "/img/project/project-5.png",
-		"detailsImg": "/img/portfolio/portfolio-details-1.jpg",
-		"desc": "They are was greater open above shelter lets itself under appear sixth open gathering made upon can't own above midst gathering gathered he one us saying can't divide.",
-		"shortDesc": "Project was about precision and information",
-		"desc1": "The goal is there are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
-		"desc2": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.",
+  {
+    "id": 1,
+    "link": "https://bonafidio.io",
+    "title": "Bonafidio - Admin Dashboard",
+    "title2": "Project Description",
+    "img": "/img/portfolio/bonafidio-1.png",
+    "imgLarge": "/img/portfolio/bonafidio-lg.png",
+    "detailsImg": "/img/portfolio/bonafidio.png",
+    "desc": "Bonafidio is a web application that provides businesses with insights into their store analytics, helping them make data-driven decisions.",
+    "shortDesc": "A web application that enables businesses to view and analyze their store analytics.",
+    "desc1": "Bonafidio empowers businesses with real-time analytics, providing detailed insights into sales, customer behavior, and performance metrics. The platform is designed for efficiency, offering an intuitive interface and seamless integration with various data sources.",
+    "desc2": "By using Bonafidio, businesses can track key performance indicators, visualize trends, and gain actionable insights. The application ensures accurate data representation and a smooth user experience to help companies optimize their operations.",
+    "category": "Analytics Platform",
+    "featured": true,
+    "featuredDesc": "Bonafidio focuses on precision and clarity, ensuring businesses have the best tools for data-driven decision-making. The design team prioritized usability and seamless access to information.",
+    "featuredImg": "/img/project/project-2.png",
+    "employee": {
+      "name": "Jeremy Doughlas",
+      "desig": "UI & UX Designer",
+      "img": "/img/project/project-1.png"
+    },
+    "tags": ["Analytics", "Data Visualization", "Business Intelligence"],
+    "dataFilter": "web",
+    "statusItem": [
+      {
+        "title": "Category",
+        "desc": "Web Application (MERN)"
+      },
+      {
+        "title": "Client",
+        "desc": "Bonafidio Inc."
+      },
+      {
+        "title": "Start Date",
+        "desc": "August 20, 2023"
+      },
+      {
+        "title": "Tech Stack",
+        "desc": "React, Next.js, Node.js, MongoDB, Express"
+      }
+    ],
+    "descItems": [
+      {
+        "title": "The Story",
+        "desc": "Bonafidio was created to bridge the gap between raw data and actionable insights. Many businesses struggle with understanding their store analytics, and Bonafidio simplifies the process by providing user-friendly visualizations and reports."
+      },
+      {
+        "title": "Our Approach",
+        "desc": "We focused on a clean, intuitive UI to ensure users can easily navigate and interpret their store data. The platform integrates with multiple data sources, offering real-time updates and in-depth reports to help businesses thrive."
+      }
+    ],
+    "sliderItems": [
+      "/img/portfolio/b-p-1.png",
+      "/img/portfolio/b-p-2.png",
+      "/img/portfolio/b-p-3.png",
+      "/img/portfolio/b-p-4.png",
+      "/img/portfolio/b-p-1.png"
+    ],
+    "techStack": ["React", "Next.js", "Node.js", "MongoDB", "Express"]
+  },
+  {
+    "id": 2,
+    "title": "Bonafidio Shopify Custom",
+    "title2": "Project Description",
+    "img": "/img/portfolio/b-shopify-1.png",
+    "imgLarge": "/img/portfolio/b-shopify-1.png",
+    "detailsImg": "/img/portfolio/bonafidio-shopify.png",
+    "desc": "Bonafidio Shopify Custom is a specialized web application built using React and Remix.js. It provides custom Shopify integrations and features to enhance store analytics, order management, and customer interactions.",
+    "shortDesc": "A custom Shopify web app built with React and Remix.js to extend Shopify store functionalities and analytics.",
+    "desc1": "The project focuses on seamless integration with Shopify, providing store owners with detailed analytics, improved customer insights, and enhanced management tools. Built with React and Remix.js, it ensures fast performance and an optimized user experience.",
+    "desc2": "Bonafidio Shopify Custom offers tailored solutions for Shopify store owners, including automated reporting, custom storefront modifications, and API integrations. The platform aims to streamline business operations with intuitive UI and efficient backend support.",
+    "category": "E-commerce",
+    "featured": true,
+    "featuredDesc": "The project was designed to empower Shopify store owners with precise insights and efficient management tools, utilizing the power of React and Remix.js.",
+    "featuredImg": "/img/project/project-shopify.png",
+    "employee": {
+      "name": "Jeremy Doughlas",
+      "desig": "Full-Stack Developer",
+      "img": "/img/project/project-developer.png"
+    },
+    "tags": ["Shopify", "React", "Remix.js", "Custom Integrations"],
+    "dataFilter": "web",
+    "statusItem": [
+      {
+        "title": "Category",
+        "desc": "E-commerce Development"
+      },
+      {
+        "title": "Client",
+        "desc": "Bonafidio Solutions"
+      },
+      {
+        "title": "Start Date",
+        "desc": "March 10, 2024"
+      },
+      {
+        "title": "Tech Stack",
+        "desc": "React, Remix.js, Shopify API, Node.js, MongoDB, Express"
+      }
+    ],
+    "descItems": [
+      {
+        "title": "The story",
+        "desc": "Bonafidio Shopify Custom was developed to address the growing need for personalized Shopify solutions. With increasing demand for advanced analytics, custom integrations, and streamlined store management, this project leverages modern web technologies to provide store owners with a powerful tool to enhance their business."
+      },
+      {
+        "title": "OUR APPROACH",
+        "desc": "We used React and Remix.js to build a fast, server-side rendered application that efficiently interacts with Shopify's API. The goal was to create a seamless, high-performance experience that allows Shopify merchants to maximize their store's potential."
+      }
+    ],
+    "sliderItems": [
+      "/img/portfolio/sh-bona-1.png",
+      "/img/portfolio/sh-bona-2.png",
+      "/img/portfolio/sh-bona-3.png",
+      "/img/portfolio/sh-bona-4.png",
+      "/img/portfolio/sh-bona-5.png",
+      "/img/portfolio/sh-bona-1.png"
+    ],
+    "techStack": [
+      "React",
+      "Remix.js",
+      "Shopify API",
+      "Node.js",
+      "MongoDB",
+      "Express"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Point Pickleball",
+    "title2": "Project Description",
+    "img": "/img/portfolio/point-1-up.png",
+    "imgLarge": "/img/portfolio/point-1-up.png",
+    "detailsImg": "/img/portfolio/point-p-1.webp",
+    "desc": "Point Pickleball is a mobile app designed for pickleball enthusiasts to track their matches, improve gameplay, and connect with other players.",
+    "shortDesc": "A mobile app for pickleball players to track matches and improve gameplay.",
+    "desc1": "Built with React Native for a seamless mobile experience, Point Pickleball provides players with real-time match tracking, leaderboards, and performance analytics.",
+    "desc2": "The app leverages a Node.js and Express backend with MongoDB for efficient data management, ensuring a smooth and scalable user experience. Features include match history, skill tracking, and a player ranking system.",
+    "category": "Mobile App",
+    "featured": true,
+    "featuredDesc": "A cutting-edge pickleball tracking app that helps players enhance their skills and stay competitive.",
+    "featuredImg": "/img/project/project-3.png",
+    "employee": {
+      "name": "John Doe",
+      "desig": "Mobile App Developer",
+      "img": "/img/project/project-4.png"
+    },
+    "tags": ["React Native", "Node.js", "MongoDB", "Express"],
+    "dataFilter": "mobile",
+    "statusItem": [
+      {
+        "title": "Category",
+        "desc": "Mobile App Development"
+      },
+      {
+        "title": "Client",
+        "desc": "Point Pickleball Inc."
+      },
+      {
+        "title": "Start Date",
+        "desc": "September 10, 2023"
+      },
+      {
+        "title": "Tech Stack",
+        "desc": "React Native, Node.js, MongoDB, Express"
+      }
+    ],
+    "descItems": [
+      {
+        "title": "The Story",
+        "desc": "Point Pickleball was created to bring an engaging and interactive experience to pickleball players worldwide. With a user-friendly interface and comprehensive match tracking, the app ensures that players can monitor their performance and challenge their friends."
+      },
+      {
+        "title": "Our Approach",
+        "desc": "We developed Point Pickleball using React Native to provide a smooth cross-platform experience. The backend, built with Node.js and Express, ensures real-time match updates and a seamless data flow. MongoDB was chosen for its scalability and flexibility in handling user data."
+      }
+    ],
+    "link": "https://apps.apple.com/us/app/point-pickleball/id6472732943",
+    "sliderItems": [
+      "/img/portfolio/pp-1.webp",
+      "/img/portfolio/pp-2.webp",
+      "/img/portfolio/pp-3.webp",
+      "/img/portfolio/pp-4.webp",
+      "/img/portfolio/pp-5.webp",
+      "/img/portfolio/pp-1.webp"
+    ],
+    "techStack": ["React Native", "Node.js", "MongoDB", "Express"]
+  },
 
-		"category": "Branding",
-		"featured": true,
-		"featuredDesc": " Project was about precision and information. That’s all. Our design tem helps clients achieve their marketing Trager and branding that appeals to a website",
-		"featuredImg": "/img/project/project-2.png",
-		"employee": {
-			"name": "Jeremy Doughlas",
-			"desig": "UI & UX designer",
-			"img": "/img/project/project-1.png"
-		},
-		"tags": ["Branding", "Graphic Design", "User Stories"],
-		"dataFilter": "branding",
-		"statusItem": [
-			{
-				"title": "Category",
-				"desc": "Web Design"
-			},
-			{
-				"title": "Client",
-				"desc": "Artboard Studio"
-			},
-			{
-				"title": "Start Date",
-				"desc": "August 20, 2023"
-			},
-			{
-				"title": "Designer",
-				"desc": "ThemeJunction"
-			}
-		],
-		"descItems": [
-			{
-				"title": "The story",
-				"desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text."
-			},
-			{
-				"title": "OUR APPROACH",
-				"desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text."
-			}
-		]
-	},
-	{
-		"id": 2,
-		"title": "New Age",
-		"title2": "Project Description",
-		"img": "/img/portfolio/3.jpg",
-		"imgLarge": "/img/portfolio/1.jpg",
-		"detailsImg": "/img/portfolio/portfolio-details-2.jpg",
-		"desc": "They are was greater open above shelter lets itself under appear sixth open gathering made upon can't own above midst gathering gathered he one us saying can't divide.",
-		"shortDesc": "Project was about precision and information",
-		"desc1": "The goal is there are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
-		"desc2": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.",
-
-		"category": "UX/UI",
-		"featured": true,
-		"featuredDesc": " Project was about precision and information. That’s all. Our design tem helps clients achieve their marketing Trager and branding that appeals to a website",
-		"featuredImg": "/img/project/project-3.png",
-		"employee": {
-			"name": "",
-			"desig": "",
-			"img": ""
-		},
-		"tags": ["Branding", "Graphic Design", "User Stories"],
-		"dataFilter": "uxui",
-		"statusItem": [
-			{
-				"title": "Category",
-				"desc": "Web Design"
-			},
-			{
-				"title": "Client",
-				"desc": "Artboard Studio"
-			},
-			{
-				"title": "Start Date",
-				"desc": "August 20, 2023"
-			},
-			{
-				"title": "Designer",
-				"desc": "ThemeJunction"
-			}
-		],
-		"descItems": [
-			{
-				"title": "The story",
-				"desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text."
-			},
-			{
-				"title": "OUR APPROACH",
-				"desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text."
-			}
-		]
-	},
-	{
-		"id": 3,
-		"title": "Sebastian",
-		"title2": "Project Description",
-		"img": "/img/portfolio/4.jpg",
-		"imgLarge": "/img/portfolio/4.jpg",
-		"detailsImg": "/img/portfolio/portfolio-details-3.jpg",
-		"desc": "They are was greater open above shelter lets itself under appear sixth open gathering made upon can't own above midst gathering gathered he one us saying can't divide.",
-		"shortDesc": "Project was about precision and information",
-		"desc1": "The goal is there are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
-		"desc2": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.",
-
-		"category": "Apps",
-		"featured": true,
-		"featuredDesc": " Project was about precision and information. That’s all. Our design tem helps clients achieve their marketing Trager and branding that appeals to a website",
-		"featuredImg": "/img/project/project-4.png",
-		"employee": {
-			"name": "",
-			"desig": "",
-			"img": ""
-		},
-		"tags": ["Branding", "Graphic Design", "User Stories"],
-		"dataFilter": "mobile-app",
-		"statusItem": [
-			{
-				"title": "Category",
-				"desc": "Web Design"
-			},
-			{
-				"title": "Client",
-				"desc": "Artboard Studio"
-			},
-			{
-				"title": "Start Date",
-				"desc": "August 20, 2023"
-			},
-			{
-				"title": "Designer",
-				"desc": "ThemeJunction"
-			}
-		],
-		"descItems": [
-			{
-				"title": "The story",
-				"desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text."
-			},
-			{
-				"title": "OUR APPROACH",
-				"desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text."
-			}
-		]
-	},
-	{
-		"id": 4,
-		"title": "Mochnix",
-		"title2": "Project Description",
-		"img": "/img/portfolio/1.jpg",
-		"imgLarge": "/img/portfolio/3.jpg",
-		"detailsImg": "/img/portfolio/portfolio-details-4.jpg",
-		"desc": "They are was greater open above shelter lets itself under appear sixth open gathering made upon can't own above midst gathering gathered he one us saying can't divide.",
-		"shortDesc": "Project was about precision and information",
-		"desc1": "The goal is there are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
-		"desc2": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.",
-
-		"category": "Branding",
-		"featured": false,
-		"featuredDesc": " Project was about precision and information. That’s all. Our design tem helps clients achieve their marketing Trager and branding that appeals to a website",
-		"featuredImg": "/img/project/project-2.png",
-		"employee": {
-			"name": "",
-			"desig": "",
-			"img": ""
-		},
-		"tags": ["Branding", "Graphic Design", "User Stories"],
-		"dataFilter": "branding",
-		"statusItem": [
-			{
-				"title": "Category",
-				"desc": "Web Design"
-			},
-			{
-				"title": "Client",
-				"desc": "Artboard Studio"
-			},
-			{
-				"title": "Start Date",
-				"desc": "August 20, 2023"
-			},
-			{
-				"title": "Designer",
-				"desc": "ThemeJunction"
-			}
-		],
-		"descItems": [
-			{
-				"title": "The story",
-				"desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text."
-			},
-			{
-				"title": "OUR APPROACH",
-				"desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text."
-			}
-		]
-	}
+  {
+    "id": 4,
+    "title": "Stampbox",
+    "title2": "Project Description",
+    "img": "/img/portfolio/stamp-1-up.png",
+    "imgLarge": "/img/portfolio/stamp-1-up.png",
+    "detailsImg": "/img/portfolio/stampbox.png",
+    "desc": "Stampbox is a mobile app designed for stamp collectors and philatelists to catalog, organize, and showcase their stamp collections.",
+    "shortDesc": "A mobile app for stamp collectors to organize and showcase their collections.",
+    "desc1": "Stampbox allows users to digitize their stamp collections, add metadata, and browse a global database of rare stamps.",
+    "desc2": "With a backend built on Node.js, Express, and MongoDB, the app ensures fast and secure data management. The React Native frontend delivers a smooth and interactive experience.",
+    "category": "Mobile App",
+    "featured": true,
+    "featuredDesc": "The app was designed with a deep understanding of philatelists' needs, providing a seamless way to organize and explore stamp collections.",
+    "featuredImg": "/img/project/project-4.png",
+    "employee": {
+      "name": "Jane Smith",
+      "desig": "React Native Developer",
+      "img": "/img/project/project-3.png"
+    },
+    "tags": ["React Native", "Node.js", "MongoDB"],
+    "dataFilter": "mobile",
+    "statusItem": [
+      {
+        "title": "Category",
+        "desc": "Mobile App Development"
+      },
+      {
+        "title": "Client",
+        "desc": "Philatelists Community"
+      },
+      {
+        "title": "Start Date",
+        "desc": "June 5, 2024"
+      },
+      {
+        "title": "Tech Stack",
+        "desc": "React Native, Node.js, MongoDB, Express"
+      }
+    ],
+    "descItems": [
+      {
+        "title": "The story",
+        "desc": "Stampbox was created to help stamp enthusiasts organize their collections and connect with a larger community of collectors."
+      },
+      {
+        "title": "OUR APPROACH",
+        "desc": "Using React Native for cross-platform compatibility and Node.js/Express for backend scalability, we built an app tailored to stamp collectors' needs."
+      }
+    ],
+    "link": "https://play.google.com/store/apps/details?id=com.stampbox&hl=en",
+    "sliderItems": [
+      "/img/portfolio/stampbox-s-4.webp",
+      "/img/portfolio/stampbox-s-3.webp",
+      "/img/portfolio/stampbox-s-2.webp",
+      "/img/portfolio/stampbox-s-1.webp",
+      "/img/portfolio/stampbox-s-4.webp",
+      "/img/portfolio/stampbox-s-3.webp"
+    ],
+    "techStack": ["React Native", "PHP", "Laravel", "MySQL"]
+  }
 ]

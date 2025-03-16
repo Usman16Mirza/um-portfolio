@@ -4,24 +4,24 @@
     "iconName": "flaticon-recommendation",
     "resumeItems": [
       {
-        "date": "2022 - Present",
-        "title": "Programming course",
-        "desc": "Blockdots, London"
+        "date": "2024 - Present",
+        "title": "Full Stack Developer",
+        "desc": "Citrok, Lahore"
       },
       {
-        "date": "2021 - 2022",
-        "title": "CMS course",
-        "desc": "Parsons, The New School"
+        "date": "2022 - 2024",
+        "title": "React/React Native Developer",
+        "desc": "Citrok, Lahore"
       },
       {
-        "date": "2020 - 2021",
-        "title": "Web design course",
-        "desc": "House of Life, Leeds"
+        "date": "2022-2023",
+        "title": "JS/Programming Course",
+        "desc": "Jonas Schmedtmann, London"
       },
       {
-        "date": "2018 - 2020",
-        "title": "Parsons, The New School",
-        "desc": "Theme Junction, Bursa"
+        "date": "2022",
+        "title": "Web Development Course",
+        "desc": "Fast University, Islamabad"
       }
     ]
   },
@@ -30,24 +30,24 @@
     "iconName": "flaticon-graduation-cap",
     "resumeItems": [
       {
-        "date": "2020 - 2023",
-        "title": "BLOCKDOTS",
-        "desc": "Harverd University"
+        "date": "2022 - 2022",
+        "title": "Software Engineering",
+        "desc": "Fast University, Islamabad"
       },
       {
-        "date": "2016 - 2020",
-        "title": "Parsons, The New School",
-        "desc": "University of Denmark"
+        "date": "2017 - 2021",
+        "title": "Bachelor of Sci. in Civil Engg",
+        "desc": "University of Engineering and Technology, Lahore"
       },
       {
-        "date": "2012 - 2015",
-        "title": "IDEO",
-        "desc": "University of California"
+        "date": "2015 - 2017",
+        "title": "Intermediate/Fsc",
+        "desc": "Educators College, chichawatni"
       },
       {
-        "date": "2010 - 2011",
-        "title": "Parsons, The New School",
-        "desc": "Parsons, The New School"
+        "date": "2013 - 2015",
+        "title": "Matric",
+        "desc": "Dawn High School, chichawatni"
       }
     ]
   }

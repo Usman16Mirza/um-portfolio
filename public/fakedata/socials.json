@@ -1,18 +1,15 @@
 [
-    {
-        "iconName":"fa-brands fa-twitter",
-        "path":"https://www.facebook.com"
-    },
-    {
-        "iconName":"fa-light fa-basketball",
-        "path":"https://www.basketball.com"
-    },
-    {
-        "iconName":"fa-brands fa-linkedin-in",
-        "path":"https://www.linkedin.com"
-    },
-    {
-        "iconName":"fa-brands fa-github",
-        "path":"https://www.github.com"
-    }
+  {
+    "iconName": "fa-brands fa-twitter",
+    "path": "https://www.facebook.com"
+  },
+
+  {
+    "iconName": "fa-brands fa-linkedin-in",
+    "path": "https://www.linkedin.com/in/usman16mirza"
+  },
+  {
+    "iconName": "fa-brands fa-github",
+    "path": "https://www.github.com/usman16mirza"
+  }
 ]

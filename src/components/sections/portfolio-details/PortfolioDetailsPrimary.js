@@ -9,12 +9,8 @@ import Link from "next/link";
 import { useParams } from "next/navigation";
 import { Autoplay, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-const sliderItems = [
-  "/img/portfolio-gallery/p-gallery-1.jpg",
-  "/img/portfolio-gallery/p-gallery-2.jpg",
-  "/img/portfolio-gallery/p-gallery-3.jpg",
-  "/img/portfolio-gallery/p-gallery-4.jpg",
-];
+import { useState, useEffect } from "react";
+
 const PortfolioDetailsPrimary = () => {
   const portfolios = getPortfolio();
   const params = useParams();
@@ -26,10 +22,36 @@ const PortfolioDetailsPrimary = () => {
   const portfolio = getAPortfolio(currentId);
   const pervPortfolio = getAPortfolio(prevId);
   const nextPortfolio = getAPortfolio(nextId);
-  const { title, title2, desc, desc1, desc2, img, descItems, statusItem } =
-    portfolio || {};
+  const {
+    title,
+    title2,
+    desc,
+    desc1,
+    desc2,
+    img,
+    descItems,
+    statusItem,
+    link,
+    sliderItems = [
+      "/img/portfolio-gallery/p-gallery-1.jpg",
+      "/img/portfolio-gallery/p-gallery-2.jpg",
+      "/img/portfolio-gallery/p-gallery-3.jpg",
+      "/img/portfolio-gallery/p-gallery-4.jpg",
+    ],
+  } = portfolio || {};
   const isPrevProject = currentId > 1;
   const isNextProject = currentId < totalPorfolio;
+  const [isPortrait, setIsPortrait] = useState(true);
+  console.log("isPorttrsain", isPortrait);
+  useEffect(() => {
+    if (sliderItems?.length > 0) {
+      const img = new window.Image();
+      img.src = sliderItems[0];
+      img.onload = () => {
+        setIsPortrait(img.height > img.width);
+      };
+    }
+  }, [sliderItems]);
 
   return (
     <section>
@@ -65,8 +87,10 @@ const PortfolioDetailsPrimary = () => {
                         </p>
                         <div>
                           <ButtonPrimary
+                            target="_blank"
                             className={"group/nested"}
-                            url={"/#contact"}
+                            url={link}
+                            // rel="noopener noreferrer"
                           >
                             live preview
                             <i className="fal fa-arrow-right ml-10px -rotate-45 group-hover/nested:rotate-0 transition-all duration-300"></i>
@@ -94,7 +118,7 @@ const PortfolioDetailsPrimary = () => {
                     <div className="mb-15px md:mb-5 px-15px md:px-0">
                       <Swiper
                         spaceBetween={20}
-                        slidesPerView={1}
+                        slidesPerView={isPortrait ? 5 : 2}
                         loop={true}
                         centeredSlides={true}
                         pagination={{
@@ -110,12 +134,16 @@ const PortfolioDetailsPrimary = () => {
                             slidesPerView: 2,
                           },
                           992: {
-                            slidesPerView: 2,
+                            slidesPerView: isPortrait ? 3 : 2,
+                            spaceBetween: 30,
+                          },
+                          1200: {
+                            slidesPerView: isPortrait ? 4 : 3,
                             spaceBetween: 30,
                           },
                         }}
                         modules={[Pagination, Autoplay]}
-                        className="portfolio-slider"
+                        className="portfolio-slider max-w-[1400px] mx-auto"
                       >
                         {sliderItems?.length
                           ? sliderItems?.map((sliderItem, idx) => (

@@ -1,32 +1,62 @@
 [
   {
-    "name": "Figma",
-    "img": "/img/icons/figma.png",
-    "perchant": "92%"
-  },
-  {
-    "name": "Sketch",
-    "img": "/img/icons/sketch.png",
-    "perchant": "80%"
-  },
-  {
-    "name": "XD",
-    "img": "/img/icons/xd.png",
-    "perchant": "85%"
-  },
-  {
-    "name": "WordPress",
-    "img": "/img/icons/wp.png",
-    "perchant": "99%"
-  },
-  {
     "name": "React",
     "img": "/img/icons/react.png",
-    "perchant": "89%"
+    "perchant": "93%"
+  },
+  {
+    "name": "Next.js",
+    "img": "/img/icons/nextjs.png",
+    "perchant": "80%"
   },
   {
     "name": "JavaScript",
     "img": "/img/icons/js.png",
     "perchant": "93%"
+  },
+  {
+    "name": "React Native",
+    "img": "/img/icons/react-native-1.svg",
+    "perchant": "90%"
+  },
+  {
+    "name": "RemixJs",
+    "img": "/img/icons/remix.png",
+    "perchant": "90%"
+  },
+  {
+    "name": "Node.js",
+    "img": "/img/icons/node.png",
+    "perchant": "80%"
+  },
+  {
+    "name": "Express.js",
+    "img": "/img/icons/express-js.png",
+    "perchant": "80%"
+  },
+  {
+    "name": "Nest.js",
+    "img": "/img/icons/nest.png",
+    "perchant": "80%"
+  },
+  {
+    "name": "MongoDB",
+    "img": "/img/icons/mongodb.svg",
+    "perchant": "80%"
+  },
+  {
+    "name": "MySQL",
+    "img": "/img/icons/MySQL-Logo.png",
+    "perchant": "80%"
+  },
+  {
+    "name": "Figma",
+    "img": "/img/icons/figma.png",
+    "perchant": "52%"
+  },
+  {
+    "name": "WordPress",
+    "img": "/img/icons/wp.png",
+    "perchant": "99%"
   }
 ]
