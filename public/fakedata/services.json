@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "title": "Web Development",
+    "img": "/img/services/1.png",
+    "iconName": "flaticon-design",
+
+    "desc": "Specialized in modern web development using React.js ecosystem. Building fast, scalable, and SEO-friendly applications with Next.js, Remix, and TypeScript. Experienced in creating robust backend services with Node.js, Express, and NestJS.",
+    "shortDesc": "Full-stack web development with React ecosystem, focusing on performance, SEO, and scalable architecture using Next.js, Remix, and TypeScript.",
+    "desc1": "My web development approach combines frontend excellence with robust backend solutions. On the frontend, I leverage React.js with Next.js or Remix for optimal performance and SEO benefits. TypeScript ensures type-safe, maintainable code across the entire stack.",
+    "desc2": "For backend services, I utilize Node.js with Express or NestJS to create scalable APIs and server-side solutions. This full-stack expertise allows me to deliver complete, production-ready web applications that meet modern development standards.",
+    "totalProject": "10 Projects",
+    "process": {
+      "title": "Services Process",
+      "img": "/img/services/service-details.jpg",
+      "iconName": "flaticon-ux-design ",
+
+      "desc": "Elizabeth some dodgy chavs are you taking the piss faff about pardon amongst car boot a load of old tosh is cracking goal blow off telling brown.",
+      "processItems": [
+        "Reinvent Your Business to Better",
+        "Pioneering the Internet's First",
+        "Pioneering the Design World's First",
+        "Pioneering the Design World's First",
+        "Pioneering the Design World's First",
+        "Pioneering the Design World's First"
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "title": "Mobile Development",
+    "img": "/img/services/3.png",
+    "iconName": "flaticon-web-design",
+    "desc": "Expert in React Native mobile development, creating high-performance cross-platform applications that deliver native experiences on both iOS and Android platforms while maintaining a single codebase.",
+    "shortDesc": "Cross-platform mobile development with React Native, delivering native performance and seamless user experiences for both iOS and Android platforms.",
+    "desc1": "Using React Native, I develop mobile applications that provide authentic native experiences while maintaining the efficiency of a single codebase. This approach significantly reduces development time and maintenance costs while ensuring consistent functionality across platforms.",
+    "desc2": "My mobile development process emphasizes responsive UI design, smooth animations, efficient state management, and optimal performance. I ensure proper handling of platform-specific features and integrate native modules when needed for enhanced functionality.",
+    "totalProject": "15 Projects",
+    "process": {
+      "title": "Services Process",
+      "img": "/img/services/service-details.jpg",
+      "iconName": "flaticon-design",
+
+      "desc": "Elizabeth some dodgy chavs are you taking the piss faff about pardon amongst car boot a load of old tosh is cracking goal blow off telling brown.",
+      "processItems": [
+        "Reinvent Your Business to Better",
+        "Pioneering the Internet's First",
+        "Pioneering the Design World's First",
+        "Pioneering the Design World's First",
+        "Pioneering the Design World's First",
+        "Pioneering the Design World's First"
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "title": "UI/UX Design",
+    "img": "/img/services/2.png",
+    "iconName": "flaticon-ux-design",
+
+    "desc": "Creating intuitive and visually appealing user interfaces using Figma. From wireframes to interactive prototypes, I design user-centered experiences that balance aesthetics with functionality.",
+    "shortDesc": "User-centered interface design with Figma, focusing on creating intuitive, accessible, and visually engaging digital experiences.",
+    "desc1": "Using Figma as my primary design tool, I create comprehensive design systems that ensure consistency across platforms. My process includes wireframing, prototyping, and creating detailed UI components that can be easily implemented by development teams.",
+    "desc2": "I prioritize user experience by conducting research, creating user flows, and designing interfaces that are both aesthetically pleasing and functionally efficient. My designs focus on accessibility, usability, and modern design principles.",
+    "totalProject": "11 Projects",
+    "process": {
+      "title": "Services Process",
+      "img": "/img/services/service-details.jpg",
+      "iconName": "flaticon-design",
+
+      "desc": "Elizabeth some dodgy chavs are you taking the piss faff about pardon amongst car boot a load of old tosh is cracking goal blow off telling brown.",
+      "processItems": [
+        "Reinvent Your Business to Better",
+        "Pioneering the Internet's First",
+        "Pioneering the Design World's First",
+        "Pioneering the Design World's First",
+        "Pioneering the Design World's First",
+        "Pioneering the Design World's First"
+      ]
+    }
+  }
+]

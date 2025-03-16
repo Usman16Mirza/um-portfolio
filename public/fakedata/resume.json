@@ -1,0 +1,54 @@
+[
+  {
+    "title": "My Experience",
+    "iconName": "flaticon-recommendation",
+    "resumeItems": [
+      {
+        "date": "2024 - Present",
+        "title": "Full Stack Developer",
+        "desc": "Citrok, Lahore"
+      },
+      {
+        "date": "2022 - 2024",
+        "title": "React/React Native Developer",
+        "desc": "Citrok, Lahore"
+      },
+      {
+        "date": "2022-2023",
+        "title": "JS/Programming Course",
+        "desc": "Jonas Schmedtmann, London"
+      },
+      {
+        "date": "2022",
+        "title": "Web Development Course",
+        "desc": "Fast University, Islamabad"
+      }
+    ]
+  },
+  {
+    "title": "My Education",
+    "iconName": "flaticon-graduation-cap",
+    "resumeItems": [
+      {
+        "date": "2022 - 2022",
+        "title": "Software Engineering",
+        "desc": "Fast University, Islamabad"
+      },
+      {
+        "date": "2017 - 2021",
+        "title": "Bachelor of Sci. in Civil Engg",
+        "desc": "University of Engineering and Technology, Lahore"
+      },
+      {
+        "date": "2015 - 2017",
+        "title": "Intermediate/Fsc",
+        "desc": "Educators College, chichawatni"
+      },
+      {
+        "date": "2013 - 2015",
+        "title": "Matric",
+        "desc": "Dawn High School, chichawatni"
+      }
+    ]
+  }
+]
