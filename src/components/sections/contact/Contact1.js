@@ -1,6 +1,30 @@
+"use client";
+import { useState } from "react";
 import FormSelect from "@/components/shared/Inputs/FormSelect";
 
+const FORMSPREE_ENDPOINT = "https://formspree.io/f/xkjgvvqk";
+
 const Contact1 = () => {
+  const [status, setStatus] = useState("idle");
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    const form = e.currentTarget;
+    setStatus("submitting");
+    try {
+      const response = await fetch(FORMSPREE_ENDPOINT, {
+        method: "POST",
+        body: new FormData(form),
+        headers: { Accept: "application/json" },
+      });
+      if (!response.ok) throw new Error("Submission failed");
+      form.reset();
+      setStatus("success");
+    } catch {
+      setStatus("error");
+    }
+  };
+
   return (
     <section id="contact">
       <div className="bg-cream-light-color dark:bg-black-color py-60px md:py-20 lg:py-100px xl:py-30">
@@ -11,10 +35,9 @@ const Contact1 = () => {
               <div className=" wow fadeInLeft" data-wow-delay=".3s">
                 <form
                   className="contact px-15px py-30px md:px-5 lg:px-30px lg:py-10 xl:px-10 bg-white-color dark:bg-primary-color-light rounded-15px"
-                  onSubmit={(e) => {
-                    e.preventDefault();
-                    e.stopPropagation();
-                  }}
+                  action={FORMSPREE_ENDPOINT}
+                  method="POST"
+                  onSubmit={handleSubmit}
                 >
                   <div className="mb-25px text-center">
                     <h2 className="text-3xl md:text-size-35 lg:text-size-40 xl:text-size-45 bg-gradient-text-light dark:bg-gradient-text bg-clip-text xl:leading-1.2 text-transparent mb-15px">
@@ -37,6 +60,8 @@ const Contact1 = () => {
                     <div>
                       <input
                         type="text"
+                        name="firstName"
+                        required
                         placeholder="First name"
                         className="text-white-color w-full px-5 py-14px border border-gray-color-3 bg-cream-light-color dark:bg-black-color focus:border-primary-color rounded-lg outline-none focus:outline-none transition-all duration-300 placeholder:text-gray-color leading-1"
                       />
@@ -45,6 +70,7 @@ const Contact1 = () => {
                     <div>
                       <input
                         type="text"
+                        name="lastName"
                         placeholder="Last name"
                         className="text-white-color w-full px-5 py-14px border border-gray-color-3 bg-cream-light-color dark:bg-black-color focus:border-primary-color rounded-lg outline-none focus:outline-none transition-all duration-300 placeholder:text-gray-color leading-1"
                       />
@@ -53,6 +79,8 @@ const Contact1 = () => {
                     <div>
                       <input
                         type="email"
+                        name="email"
+                        required
                         placeholder="Email address"
                         className="text-white-color w-full px-5 py-14px border border-gray-color-3 bg-cream-light-color dark:bg-black-color focus:border-primary-color rounded-lg outline-none focus:outline-none transition-all duration-300 placeholder:text-gray-color leading-1"
                       />
@@ -61,6 +89,7 @@ const Contact1 = () => {
                     <div>
                       <input
                         type="text"
+                        name="phone"
                         placeholder="Phone number"
                         className="text-white-color w-full px-5 py-14px border border-gray-color-3 bg-cream-light-color dark:bg-black-color focus:border-primary-color rounded-lg outline-none focus:outline-none transition-all duration-300 placeholder:text-gray-color leading-1"
                       />
@@ -72,17 +101,31 @@ const Contact1 = () => {
                       <textarea
                         cols="1"
                         rows="10"
+                        name="message"
+                        required
                         placeholder="Message"
                         className="text-white-color w-full px-5 py-14px border border-gray-color-3 bg-cream-light-color dark:bg-black-color focus:border-primary-color rounded-lg outline-none focus:outline-none transition-all duration-300 placeholder:text-gray-color leading-1"
                       />
                     </div>
                     <div className="sm:col-start-1 sm:col-span-2">
                       <button
-                        // type="submit"
-                        className="text-size-15 font-bold text-white-color capitalize py-17px px-35px bg-200 bg-gradient-secondary hover:bg-[-100%] rounded-full leading-1 transition-all duration-300"
+                        type="submit"
+                        disabled={status === "submitting"}
+                        className="text-size-15 font-bold text-white-color capitalize py-17px px-35px bg-200 bg-gradient-secondary hover:bg-[-100%] rounded-full leading-1 transition-all duration-300 disabled:opacity-60"
                       >
-                        Send Message
+                        {status === "submitting" ? "Sending..." : "Send Message"}
                       </button>
+                      {status === "success" && (
+                        <p className="mt-15px text-primary-color">
+                          Thanks! Your message has been sent.
+                        </p>
+                      )}
+                      {status === "error" && (
+                        <p className="mt-15px text-red-500">
+                          Something went wrong. Please try again or email me
+                          directly.
+                        </p>
+                      )}
                     </div>
                   </div>
                 </form>
