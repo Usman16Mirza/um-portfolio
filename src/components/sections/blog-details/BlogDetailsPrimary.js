@@ -202,7 +202,7 @@ const BlogDetailsPrimary = ({
                             <p className="text-primary-color-light dark:text-white-color mb-15px md:mb-5">
                               Emphasize the long-term benefits of integrating
                               sustainable practices into logistics operations,
-                              both for the planet and a company's reputation.
+                              both for the planet and a company&apos;s reputation.
                             </p>
                             <p className="text-primary-color-light dark:text-white-color mb-15px md:mb-5">
                               These outlines can be expanded into comprehensive

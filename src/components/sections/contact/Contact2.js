@@ -90,7 +90,7 @@ const Contact2 = () => {
 								className="text-primary-color-light dark:text-body-color wow fadeInRight mb-45px"
 								data-wow-delay=".3s"
 							>
-								I'm currently avaliable to take on new projects, so feel free to
+								I&apos;m currently avaliable to take on new projects, so feel free to
 								send me a message about anything that you want to run past me.
 								You can contact anytime at 24/7.
 							</p>

@@ -23,7 +23,7 @@ const About1 = () => {
                 data-wow-delay="0.4s"
               >
                 Since beginning my journey as a freelance designer nearly 8
-                years ago, I've done remote work for agencies, consulted for
+                years ago, I&apos;ve done remote work for agencies, consulted for
                 startups, and collaborated with talented people to create
                 digital products for both business and consumer us
               </p>
