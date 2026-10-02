@@ -1,6 +1,153 @@
 [
   {
     "id": 1,
+    "link": "https://store.inkpressions.com/",
+    "title": "Inkpressions",
+    "title2": "Project Description",
+    "img": "/img/portfolio/inkpressions-1.jpg",
+    "imgLarge": "/img/portfolio/inkpressions-1.jpg",
+    "detailsImg": "/img/portfolio/inkpressions-1.jpg",
+    "desc": "Inkpressions is an AI-powered custom gear store built on headless Shopify. Customers design their own apparel with text, uploaded images and AI-generated artwork, then order it in a few steps.",
+    "shortDesc": "AI-powered custom gear store on headless Shopify.",
+    "desc1": "The store's design studio lets customers customize products in real time: add text, upload their own artwork, or describe a design and get AI-generated logos and artwork from Leonardo.ai. Store sales grew 50% after launch.",
+    "desc2": "The storefront is a Next.js app on top of headless Shopify, backed by a NestJS and MongoDB API that handles orders and Stripe payments securely.",
+    "category": "E-commerce",
+    "featured": true,
+    "featuredDesc": "A headless Shopify store with a real-time AI design studio that lets customers create and order custom apparel.",
+    "featuredImg": "/img/portfolio/inkpressions-1.jpg",
+    "tags": ["Headless Shopify", "AI", "Next.js", "NestJS"],
+    "dataFilter": "web",
+    "statusItem": [
+      {
+        "title": "Category",
+        "desc": "AI E-commerce Platform"
+      },
+      {
+        "title": "Built At",
+        "desc": "Savvyprogrammers"
+      },
+      {
+        "title": "Platform",
+        "desc": "Headless Shopify"
+      },
+      {
+        "title": "Tech Stack",
+        "desc": "Next.js, NestJS, MongoDB, Stripe, Leonardo.ai"
+      }
+    ],
+    "descItems": [
+      {
+        "title": "The Story",
+        "desc": "Inkpressions wanted a store where customers design their own custom gear, even if they don't have artwork of their own. AI-generated designs make that possible in seconds."
+      },
+      {
+        "title": "My Approach",
+        "desc": "I built a real-time product designer with text, upload and AI modes, using Leonardo.ai to generate logos and artwork from a short description. Orders and payments go through secure NestJS APIs with Stripe."
+      }
+    ],
+    "sliderItems": ["/img/portfolio/inkpressions-1.jpg", "/img/portfolio/inkpressions-2.jpg", "/img/portfolio/inkpressions-3.jpg", "/img/portfolio/inkpressions-4.jpg", "/img/portfolio/inkpressions-1.jpg"],
+    "techStack": ["Next.js", "NestJS", "MongoDB", "Stripe", "Headless Shopify", "Leonardo.ai"]
+  },
+  {
+    "id": 2,
+    "link": "https://apps.shopify.com/reviewloop",
+    "title": "ReviewLoop",
+    "title2": "Project Description",
+    "img": "/img/portfolio/reviewloop-1.jpg",
+    "imgLarge": "/img/portfolio/reviewloop-1.jpg",
+    "detailsImg": "/img/portfolio/reviewloop-1.jpg",
+    "desc": "ReviewLoop is a public Shopify app for collecting and displaying product reviews, built as an alternative to Judge.me.",
+    "shortDesc": "Shopify reviews app with photo and video reviews.",
+    "desc1": "Customers can leave photo and video reviews, and store owners can reply to them directly from the app. Reviews are shown on the storefront in widgets and carousels that build shopper trust.",
+    "desc2": "Custom follow-up emails remind buyers to review their purchase, so stores keep collecting fresh reviews without manual work.",
+    "category": "Shopify App",
+    "featured": true,
+    "featuredDesc": "A public Shopify app for photo and video reviews, with merchant replies and automated review request emails.",
+    "featuredImg": "/img/portfolio/reviewloop-1.jpg",
+    "tags": ["Shopify App", "Reviews", "Remix", "Polaris"],
+    "dataFilter": "web",
+    "statusItem": [
+      {
+        "title": "Category",
+        "desc": "Public Shopify App"
+      },
+      {
+        "title": "Built At",
+        "desc": "Savvyprogrammers"
+      },
+      {
+        "title": "Platform",
+        "desc": "Shopify App Store"
+      },
+      {
+        "title": "Tech Stack",
+        "desc": "Remix, Polaris, Node.js"
+      }
+    ],
+    "descItems": [
+      {
+        "title": "The Story",
+        "desc": "Reviews are one of the strongest trust signals in e-commerce, but many review apps are expensive or limited to text. ReviewLoop gives merchants rich photo and video reviews and an easy way to keep them coming in."
+      },
+      {
+        "title": "My Approach",
+        "desc": "I built the app with Remix and Shopify Polaris so it feels native inside the Shopify admin, with a Node.js backend for storing reviews, handling merchant replies and scheduling custom follow-up emails."
+      }
+    ],
+    "sliderItems": ["/img/portfolio/reviewloop-1.jpg", "/img/portfolio/reviewloop-2.jpg", "/img/portfolio/reviewloop-3.jpg", "/img/portfolio/reviewloop-4.jpg", "/img/portfolio/reviewloop-1.jpg"],
+    "techStack": ["Remix", "Polaris", "Node.js", "Shopify API"]
+  },
+  {
+    "id": 3,
+    "link": "https://apps.shopify.com/fit-check-1",
+    "title": "FitCheck",
+    "title2": "Project Description",
+    "img": "/img/portfolio/fitcheck-1.jpg",
+    "imgLarge": "/img/portfolio/fitcheck-1.jpg",
+    "detailsImg": "/img/portfolio/fitcheck-1.jpg",
+    "desc": "FitCheck is a public Shopify app for AI virtual try-on. Shoppers upload or take a photo and see how clothing looks on them before they buy.",
+    "shortDesc": "AI virtual try-on app for Shopify stores.",
+    "desc1": "Shoppers pick a product, upload a photo or take one with their camera, and FitCheck generates an image of them wearing it, right on the product page.",
+    "desc2": "Merchants install it from the Shopify App Store and manage it from a Polaris admin, giving their customers more confidence to buy.",
+    "category": "Shopify App",
+    "featured": true,
+    "featuredDesc": "An AI virtual try-on app that shows shoppers how clothing looks on them before they buy.",
+    "featuredImg": "/img/portfolio/fitcheck-1.jpg",
+    "tags": ["Shopify App", "AI", "Virtual Try-On", "Remix"],
+    "dataFilter": "web",
+    "statusItem": [
+      {
+        "title": "Category",
+        "desc": "Public Shopify App"
+      },
+      {
+        "title": "Built At",
+        "desc": "Savvyprogrammers"
+      },
+      {
+        "title": "Platform",
+        "desc": "Shopify App Store"
+      },
+      {
+        "title": "Tech Stack",
+        "desc": "Remix, Polaris, Node.js"
+      }
+    ],
+    "descItems": [
+      {
+        "title": "The Story",
+        "desc": "Not knowing how clothes will fit and look is one of the main reasons shoppers hesitate to buy fashion online. FitCheck brings a fitting room to the product page."
+      },
+      {
+        "title": "My Approach",
+        "desc": "I built the storefront try-on flow and the merchant admin with Remix and Shopify Polaris, with a Node.js backend that handles photo uploads and AI image generation."
+      }
+    ],
+    "sliderItems": ["/img/portfolio/fitcheck-1.jpg", "/img/portfolio/fitcheck-2.jpg", "/img/portfolio/fitcheck-3.jpg", "/img/portfolio/fitcheck-4.jpg", "/img/portfolio/fitcheck-1.jpg"],
+    "techStack": ["Remix", "Polaris", "Node.js", "AI"]
+  },
+  {
+    "id": 4,
     "link": "https://bonafidio.io",
     "title": "Bonafidio - Admin Dashboard",
     "title2": "Project Description",
@@ -60,7 +207,7 @@
     "techStack": ["React", "Next.js", "Node.js", "MongoDB", "Express"]
   },
   {
-    "id": 2,
+    "id": 5,
     "title": "Bonafidio Shopify Custom",
     "title2": "Project Description",
     "img": "/img/portfolio/b-shopify-1.png",
@@ -127,7 +274,7 @@
     ]
   },
   {
-    "id": 3,
+    "id": 6,
     "title": "Point Pickleball",
     "title2": "Project Description",
     "img": "/img/portfolio/point-1-up.png",
@@ -189,7 +336,7 @@
   },
 
   {
-    "id": 4,
+    "id": 7,
     "title": "Stampbox",
     "title2": "Project Description",
     "img": "/img/portfolio/stamp-1-up.png",
